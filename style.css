@@ -60,6 +60,11 @@ body
 	font-family: sans-serif, serif;
 }
 
+.page
+{
+	display: flex;
+}
+
 /*liseré*/
 aside
 {
@@ -85,6 +90,7 @@ aside p, aside h2
 /*information*/
 .contenant
 {
+	flex: 2;
 	background-color: rgba(0,0,0,0.5);
 	border: 5px teal ridge;
 	border-radius: 10px;
@@ -104,8 +110,9 @@ img
 
 section
 {
+	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
-	margin-left: 10px;
 }
 
 article
