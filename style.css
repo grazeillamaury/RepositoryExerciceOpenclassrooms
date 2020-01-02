@@ -119,3 +119,37 @@ article
 {
 	width: 30%;
 }
+
+/*petite résolution*/
+
+@media all and (max-width: 1024px)
+{
+
+	aside
+	{
+		display: none;
+	}
+
+	section
+	{
+		flex-direction: column;
+		margin-top: 5%;
+	}
+
+	article
+	{
+		width: auto;
+	}
+
+	article h3
+	{
+		margin: auto;
+		text-align: justify;
+		width: 95%;
+	}
+
+	h4
+	{
+		font-size: 1.5em;
+	}
+}
